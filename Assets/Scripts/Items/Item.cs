@@ -27,7 +27,8 @@ namespace Database
         public static void Save(string Path, Type t, object o)
         {
             var Serializer = new XmlSerializer(t);
-            var stream = new FileStream(Path, FileMode.Create);
+            var encoding = System.Text.Encoding.GetEncoding("UTF-8");
+            var stream = new StreamWriter(Path, false, encoding);
             Serializer.Serialize(stream, o);
             stream.Close();
 
