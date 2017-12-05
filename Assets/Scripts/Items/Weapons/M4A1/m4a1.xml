@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<weapon_m4a1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Descriptor>
+    <Name>m4</Name>
+    <ItemHandle>PredefinedID</ItemHandle>
+    <ItemID>RandomlyGeneratedID</ItemID>
+    <Cost>12000</Cost>
+    <Weight>5</Weight>
+  </Descriptor>
+  <Damage>90</Damage>
+</weapon_m4a1>
