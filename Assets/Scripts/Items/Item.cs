@@ -7,21 +7,24 @@ using System.Xml;
 using System;
 namespace Database
 {
+    //Set of Item Variables that are common.
     [XmlRoot("Descriptor")]
+    [System.Serializable]
     public struct Descriptor
     {
         [XmlElement("Name")]
-        public string Name { get; set; }
+        public string Name;
         [XmlElement("ItemHandle")]
-        public string itemHandle { get; set; }
+        public string itemHandle;
         [XmlElement("ItemID")]
-        public string itemID { get; set; }
+        public string itemID;
         [XmlElement("Cost")]
-        public int cost { get; set; }
+        public int cost;
         [XmlElement("Weight")]
-        public int weight { get; set; }
+        public int weight;
     }
 
+    // Save and Load function.
     public class XML
     {
         public static void Save(string Path, Type t, object o)

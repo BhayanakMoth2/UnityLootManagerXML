@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Ak47 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Damage>0</Damage>
   <Descriptor>
-    <Name>Field Tested Ak</Name>
     <Cost>0</Cost>
     <Weight>0</Weight>
   </Descriptor>
-  <Damage>0</Damage>
 </Ak47>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WeaponList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapon_Ak47>
+    <Ak47>
+      <Damage>30</Damage>
+      <Descriptor>
+        <Name>Damaged AK47</Name>
+        <ItemHandle>1</ItemHandle>
+        <ItemID>1</ItemID>
+        <Cost>50</Cost>
+        <Weight>4</Weight>
+      </Descriptor>
+    </Ak47>
+    <Ak47>
+      <Damage>100</Damage>
+      <Descriptor>
+        <Name>Legendary Military AK47</Name>
+        <ItemHandle>2</ItemHandle>
+        <ItemID>2</ItemID>
+        <Cost>500</Cost>
+        <Weight>8</Weight>
+      </Descriptor>
+    </Ak47>
+  </Weapon_Ak47>
+</WeaponList>
